@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: oslosphinx
+Version: 2.2.0
+Summary: OpenStack Sphinx Extensions and Theme
+Home-page: http://www.openstack.org/
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Description: OpenStack Sphinx Extensions
+        ===========================
+        
+        Theme and extension support for Sphinx documentation from the
+        OpenStack project.
+        
+        To use the theme, add ``'oslosphinx'`` to the ``extensions`` list in
+        the ``conf.py`` file in your Sphinx project.
+        
+        If you are an incubating project, set:
+        
+        ``html_theme_options = {'incubating': True}`` in your conf.py as well, to enable the Incubation theme.
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Documentation
